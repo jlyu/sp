@@ -1,7 +1,7 @@
 clc; 
 clear all; 
 close all;
-d=csvread('CO2.csv');
+d=csvread('raw.csv');
 %t=linspace(0,2*pi,300); % 变量t范围
 t=d(:,1);
 s1=d(:,2); %3*sin(2*t+10)+randn(1,length(t)); % 信号量s1, 附带噪声
